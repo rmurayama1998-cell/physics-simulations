@@ -72,6 +72,7 @@ for title, items in SECTIONS:
 
 page = open("template.html", encoding="utf-8").read()
 page = page.replace("{{CARDS}}", "\n".join(cards)).replace("{{COUNT}}", str(n))
+page = page.replace("{{SELF_QR}}", qr_svg(SELF)).replace("{{SELF}}", SELF)
 open("index.html", "w", encoding="utf-8").write(page)
 print(f"index.html: {n} 件")
 
