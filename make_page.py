@@ -33,6 +33,7 @@ SECTIONS = [
     ("ホイヘンスの原理", [
         ("反射の法則", "huygens-simulator/hansha.html", "素元波の作図で反射の法則を導く"),
         ("屈折の法則", "huygens-simulator/kussetsu.html", "素元波の作図で屈折の法則を導く"),
+        ("素元波（平面波・球面波）", "huygens-simulator/wavelet.html", "波面上の各点から素元波が広がり、包絡線が新しい波面になる"),
     ]),
     ("光", [
         ("フィゾーの実験", "fizeau-simulator/", "回転する歯車で光の速さを測る（3D）"),
